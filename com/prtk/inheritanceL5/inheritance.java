@@ -3,12 +3,12 @@ package com.prtk.inheritanceL5;
 //LECTURE 5 (4 was a theory)
 class Parent{
     void display(){
-        System.out.println("com.prtk.inheritanceL5.Parent Class Method");
+        System.out.println("Parent Class Method");
     }
 }
 class Child extends Parent{
     void show(){
-        System.out.println("com.prtk.inheritanceL5.Child class Method");
+        System.out.println("Child class Method");
     }
 }
 
