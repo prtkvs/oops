@@ -23,14 +23,14 @@ abstract class Employee{
        return "Employee[name="+name+", id="+id+", salary="+calculateSalary()+"]";
    }
 }
-class FullTimeEmployee extends Employee{   //throws error since we cant extend abstract using normal class
+class FullTimeEmployee extends Employee{   //throws error since we cant extend abstract using normal class but error removed since we provided body to the abstract class method.
     private double monthlysalary;
     public FullTimeEmployee(String name, int id, double monthlysalary){
         super(name, id);
         this.monthlysalary= monthlysalary;
     }
     @Override
-    public double calculateSalary(){
+    public double calculateSalary(){    //error removed since body provided
         return monthlysalary;
     }
 }
@@ -50,7 +50,7 @@ class PartTimeEmployee extends Employee{
 
 
 class PayrollSystem {
-    private List<Employee> employeeList;  //*
+    private ArrayList<Employee> employeeList;  //*
 
     public PayrollSystem() {
         employeeList = new ArrayList<>();
@@ -62,7 +62,7 @@ class PayrollSystem {
 
     public void removeEmployee(int id) {
         Employee employeeToRemove = null;
-        for (Employee employee : employeeList) {
+        for (Employee employee : employeeList) {  //for each employee in employeeList
             if (employee.getId() == id) {
                 employeeToRemove = employee;
                 break;

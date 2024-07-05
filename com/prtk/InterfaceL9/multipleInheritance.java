@@ -1,9 +1,9 @@
 package com.prtk.InterfaceL9;
 interface A {
-    public void run();
+     void run();
 }
 interface B {
-    public void run();
+     void run();
 }
 class C implements A,B{
     @Override

@@ -17,7 +17,7 @@ class C extends B {         //indirectly C is also extending to A via B
 }
 public class multilevelInheritance {
     public static void main(String[] args) {
-        C obj = new C();
+        C obj = new C();    //object ek class ka bana, access teeno ho gaye.
         obj.methodC();
         obj.methodB();     //class B accessed
         obj.methodA();    //class A(grandparent) accessed

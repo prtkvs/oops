@@ -14,7 +14,7 @@ class Child extends Parent{
 
 public class inheritance {
     public static void main(String[] args) {
-        Child child1= new Child();
+        Child child1= new Child(); //object of child class but can access both child and parent.
         child1.display();          //reduced re-usability directly access parent class
         System.out.println();  //break line
         child1.show();

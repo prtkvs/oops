@@ -1,6 +1,6 @@
 package com.prtk.InterfaceL9;
-interface Car{
-    public void start();
+interface Car{    //can make in different file of same package also and access via 'implements'
+    public void start();   //'public' is no longer needed for interface cuz it's default public
 }
 class ElectricCar implements Car{
     @Override

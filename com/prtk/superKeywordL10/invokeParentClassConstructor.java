@@ -3,6 +3,7 @@ class Animal3{
     public Animal3() {
         System.out.println("animal is created");
     }
+
 }
 class Dog3 extends Animal3{
     public Dog3() {
@@ -12,7 +13,6 @@ class Dog3 extends Animal3{
 }
 public class invokeParentClassConstructor {
     public static void main(String[] args) {
-        Dog3 d = new Dog3();
-
+        Dog3 d = new Dog3();    //since we already know constructor already called
     }
 }
