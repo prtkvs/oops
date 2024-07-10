@@ -10,7 +10,7 @@ class Q extends P{
         System.out.println("Class Q method");
     }
 }
-class R extends P{
+class R extends P{          //class R extends Q,P ->ERROR since, class cannot extend multiple classes
     public void printR(){
         System.out.println("Class R method");
     }

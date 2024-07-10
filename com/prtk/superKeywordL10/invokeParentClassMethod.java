@@ -9,6 +9,7 @@ class Animal2{
     }
 }
 class Dog2 extends Animal2{
+    @Override
     void eat(){
         System.out.println("bread");
     }
