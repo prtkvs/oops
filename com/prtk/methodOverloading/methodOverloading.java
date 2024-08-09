@@ -1,4 +1,4 @@
-//LECTURE 12(1) -  lecture 11 was theory
+//LECTURE 12(1)
 package com.prtk.methodOverloading;
  class methodOverloading {
     public static int sum(int a, int b) {

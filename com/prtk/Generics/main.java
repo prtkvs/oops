@@ -3,9 +3,11 @@ package com.prtk.Generics;
 public class main {
     static class Dog<E>{
         E id;
+
         public Dog(E id){
             this.id = id;
         }
+
         E getId(){
             return id;
         }

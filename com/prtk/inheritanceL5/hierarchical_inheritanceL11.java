@@ -10,12 +10,12 @@ class Q extends P{
         System.out.println("Class Q method");
     }
 }
-class R extends P{          //class R extends Q,P ->ERROR since, class cannot extend multiple classes
+class R extends P{  //class R extends Q,P ->ERROR since, class cannot extend multiple classes but possible through interface
     public void printR(){
         System.out.println("Class R method");
     }
 }
-public class hierarchical_inheritance {
+public class hierarchical_inheritanceL11 {
     public static void main(String[] args) {
         Q obj = new Q();
         obj.printP();

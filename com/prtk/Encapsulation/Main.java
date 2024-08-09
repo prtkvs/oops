@@ -1,3 +1,4 @@
+// Lecture - 13
 package com.prtk.Encapsulation;
 class Student{
     private String name;
@@ -12,7 +13,7 @@ class Student{
     public float getMarks(){
         return marks;
     }
-    public void setName(String name){
+    public void setName(String name){  // peak use of constructor
         this.name = name;
     }
     public void setAge(int age){

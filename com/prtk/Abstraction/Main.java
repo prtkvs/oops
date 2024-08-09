@@ -1,5 +1,6 @@
+// Lecture -14
 package com.prtk.Abstraction;
-abstract class Car{
+abstract class Car{  // ** unlike interface this is not 100% abstraction
    abstract public void fueltype();
    public void color(){
         System.out.println("Black Color");
