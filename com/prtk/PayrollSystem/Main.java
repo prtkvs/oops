@@ -3,34 +3,34 @@ package com.prtk.PayrollSystem;
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class Employee{
-       private String name;
+abstract class Employee{    // abstraction
+       private String name; // encapsulation
        private int id;
 
-    public Employee(String name, int id) {
+    public Employee(String name, int id) {  // setters
         this.name = name;
         this.id = id;
     }
-    public String getName(){
+    public String getName(){   // getters
         return name;
     }
     public int getId(){
         return id;
     }
-   public abstract double calculateSalary();
+   public abstract double calculateSalary();    // peak abstraction
     @Override
-   public String toString(){
+   public String toString(){    // <100% abstraction
        return "Employee[name="+name+", id="+id+", salary="+calculateSalary()+"]";
    }
 }
-class FullTimeEmployee extends Employee{   //throws error since we cant extend abstract using normal class but error removed since we provided body to the abstract class method.
+class FullTimeEmployee extends Employee{   //throws error since we cant "extend" abstract using normal class but error removed since we provided body to the abstract class method.
     private double monthlysalary;
     public FullTimeEmployee(String name, int id, double monthlysalary){
-        super(name, id);
+        super(name, id);   // accessing Employee
         this.monthlysalary= monthlysalary;
     }
     @Override
-    public double calculateSalary(){    //error removed since body provided
+    public double calculateSalary(){    //error removed since body provided ** here
         return monthlysalary;
     }
 }
