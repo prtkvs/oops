@@ -1,4 +1,6 @@
-//LECTURE 10
+//LECTURE 10(1)
+// super - used when if same attribute is declared in both parent and child class
+// then to call parent one we use "super.(variable)"
 package com.prtk.superKeywordL10;
 class Animal{
     String color = "White";

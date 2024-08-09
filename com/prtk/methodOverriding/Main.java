@@ -1,3 +1,4 @@
+//LECTURE 12(2)
 package com.prtk.methodOverriding;
 class Bank {
     public void RateofInterest() {
@@ -21,8 +22,8 @@ class Bank {
     public class Main {
         public static void main(String[] args) {
             SBI obj = new SBI();
-            obj.RateofInterest();
+            obj.RateofInterest();   // General ROI is 6%
             BOB obj2 = new BOB();
-            obj2.RateofInterest();
+            obj2.RateofInterest();  // General ROI is 6.5%
         }
     }

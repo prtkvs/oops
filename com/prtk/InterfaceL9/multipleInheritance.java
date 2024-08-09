@@ -5,7 +5,7 @@ interface A {
 interface B {
      void run();
 }
-class C implements A,B{
+class C implements A,B{     // like: child of 2 parent
     @Override
     public void run() {
         System.out.println("C Method runs");

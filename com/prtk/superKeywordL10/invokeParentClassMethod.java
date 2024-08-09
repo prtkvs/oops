@@ -1,6 +1,6 @@
 package com.prtk.superKeywordL10;
-
-class Animal2{
+// Lecture -10(2)
+class action{
     void eat(){
         System.out.print("eating...");
     }
@@ -8,7 +8,7 @@ class Animal2{
         System.out.println("...at night");
     }
 }
-class Dog2 extends Animal2{
+class Dog2 extends action{
     @Override
     void eat(){
         System.out.println("bread");

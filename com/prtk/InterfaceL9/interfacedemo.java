@@ -1,3 +1,4 @@
+// Lecture - 9 , 8 was theory
 package com.prtk.InterfaceL9;
 interface Car{    //can make in different file of same package also and access via 'implements'
     public void start();   //'public' is no longer needed for interface cuz it's default public

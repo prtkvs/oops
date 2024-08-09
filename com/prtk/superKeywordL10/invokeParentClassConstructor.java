@@ -1,9 +1,9 @@
 package com.prtk.superKeywordL10;
+// Lecture -10(3)
 class Animal3{
     public Animal3() {
         System.out.println("animal is created");
     }
-
 }
 class Dog3 extends Animal3{
     public Dog3() {
