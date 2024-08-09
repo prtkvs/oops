@@ -1,7 +1,9 @@
 package com.prtk.constructorsL3;
 
+//    ** we use the constructor to initialize the instance variable of the class.**
+
 //LECTURE 3
-class ABC{
+ class ABC{
     String name;
     int age;
 
@@ -14,6 +16,6 @@ class ABC{
 
 public class constructordemo {
     public static void main(String[] args) {
-        ABC obj = new ABC("Sunny",32);
+        ABC obj = new ABC("Sunny",32);  // does not print sunny ,32 instead this is used to run the constructor
     }
 }

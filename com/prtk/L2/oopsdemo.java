@@ -2,7 +2,7 @@ package com.prtk.L2;
 
 //LECTURE 2
 class Student{
-    final String NAME = "Rahul";  //by convention we use capital letters for final attributes variable
+    final String NAME = "Rahul";  //by convention we use capital letters for final attributes variable + initialise here only
     int rno;
     String address;
 }
